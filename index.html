@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="baseball">baseball <span class="quarto-category-count">(1)</span></div><div class="category" data-category="huskers">huskers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="royals">royals <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="baseball">baseball <span class="quarto-category-count">(2)</span></div><div class="category" data-category="huskers">huskers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mlb">mlb <span class="quarto-category-count">(1)</span></div><div class="category" data-category="royals">royals <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -171,7 +171,14 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="baseball,huskers,royals" data-listing-date-sort="NaN" data-listing-file-modified-sort="1679440309298" data-listing-reading-time-sort="0.07">
+<div class="quarto-post image-right" data-index="0" data-categories="baseball,huskers,royals" data-listing-date-sort="NaN" data-listing-file-modified-sort="1681255904479" data-listing-reading-time-sort="0.08">
+<div class="thumbnail">
+<a href="./posts/example-blog-post/index.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./posts/example-blog-post/index.html"></a></p>
+</div>
 <div class="body">
 <a href="./posts/example-blog-post/index.html">
 <h3 class="no-anchor listing-title">
@@ -202,6 +209,47 @@ How the Kansas City Royals, and other small market teams, find ways to win.
 <a href="./posts/example-blog-post/index.html">
 <div class="listing-date">
 Invalid Date
+</div>
+<div class="listing-author">
+Kate Cordes
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="baseball,royals,mlb" data-listing-date-sort="1681621200000" data-listing-file-modified-sort="1681690899950" data-listing-reading-time-sort="13.51">
+<div class="thumbnail">
+<p><a href="./posts/royals-2015-champions/index.html"> <img src="./posts/royals-2015-champions/image.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/royals-2015-champions/index.html">
+<h3 class="no-anchor listing-title">
+The 2015 Kansas City Royals: World Champs, Not Batting Champs
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('baseball'); return false;">
+baseball
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('royals'); return false;">
+royals
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('mlb'); return false;">
+mlb
+</div>
+</div>
+<a href="./posts/royals-2015-champions/index.html">
+<div class="listing-description">
+The 2015 Kansas City Royals were an unusual team, to say the least. When the team made their wild playoff run deep into the 2014…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/royals-2015-champions/index.html">
+<div class="listing-date">
+Apr 16, 2023
 </div>
 <div class="listing-author">
 Kate Cordes
